@@ -3,48 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SpeedGuard — Privacy Policy</title>
+  <title>SpeedGuard - Privacy Policy</title>
   <style>
     :root {
       --bg: #0D0D1A;
       --surface: #1A1A2E;
       --text: #E0E0E0;
-      --text-muted: rgba(255,255,255,0.45);
+      --text-muted: rgba(255, 255, 255, 0.45);
       --accent: #00C853;
-      --border: rgba(255,255,255,0.08);
+      --border: rgba(255, 255, 255, 0.08);
     }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background: var(--bg);
       color: var(--text);
       line-height: 1.7;
       -webkit-font-smoothing: antialiased;
     }
+
     .container {
       max-width: 720px;
       margin: 0 auto;
       padding: 48px 24px 80px;
     }
+
     .header {
       text-align: center;
       margin-bottom: 48px;
       padding-bottom: 32px;
       border-bottom: 1px solid var(--border);
     }
+
     .header h1 {
       font-size: 28px;
       font-weight: 700;
       letter-spacing: -0.5px;
       margin-bottom: 8px;
     }
+
     .header .app-name {
       color: var(--accent);
     }
-    .header .effective {
+
+    .header .effective,
+    .meta {
       color: var(--text-muted);
       font-size: 14px;
     }
+
     h2 {
       font-size: 18px;
       font-weight: 700;
@@ -52,24 +65,30 @@
       color: #fff;
       letter-spacing: -0.2px;
     }
+
     h3 {
       font-size: 15px;
       font-weight: 600;
       margin: 24px 0 10px;
-      color: rgba(255,255,255,0.85);
+      color: rgba(255, 255, 255, 0.85);
     }
-    p, li {
+
+    p,
+    li {
       font-size: 15px;
       color: var(--text);
       margin-bottom: 12px;
     }
+
     ul {
       padding-left: 20px;
       margin-bottom: 16px;
     }
+
     li {
       margin-bottom: 6px;
     }
+
     .callout {
       background: var(--surface);
       border-left: 3px solid var(--accent);
@@ -77,15 +96,21 @@
       padding: 16px 20px;
       margin: 20px 0;
     }
+
     .callout p {
       margin-bottom: 0;
       font-size: 14px;
     }
+
     a {
       color: var(--accent);
       text-decoration: none;
     }
-    a:hover { text-decoration: underline; }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     .footer {
       margin-top: 56px;
       padding-top: 24px;
@@ -94,121 +119,221 @@
       color: var(--text-muted);
       font-size: 13px;
     }
+
+    .footer p {
+      color: var(--text-muted);
+      font-size: 13px;
+      margin-bottom: 0;
+    }
+
     @media (max-width: 480px) {
-      .container { padding: 32px 16px 60px; }
-      .header h1 { font-size: 24px; }
-      h2 { font-size: 17px; }
+      .container {
+        padding: 32px 16px 60px;
+      }
+
+      .header h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 17px;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
-
     <div class="header">
-      <h1>Privacy Policy for <span class="app-name">SpeedGuard</span></h1>
-      <p class="effective">Effective Date: April 9, 2026</p>
+      <h1><span class="app-name">SpeedGuard</span> Privacy Policy</h1>
+      <p class="effective">Effective date: April 21, 2026</p>
     </div>
 
-    <p>Revaz Ugrekhelidze ("we," "us," or "our") built SpeedGuard as a Freemium app. This Service is provided at no cost for the basic tier and is intended for use as is.</p>
-    <p>This page describes our policies regarding the collection, use, and disclosure of personal information when you use SpeedGuard. By using the app, you agree to these practices.</p>
+    <p>This Privacy Policy explains how SpeedGuard ("SpeedGuard," "we," "us," or "our") handles information when you use the SpeedGuard mobile app.</p>
 
-    <!-- 1 -->
-    <h2>1. Information We Collect and How We Use It</h2>
-    <p>We only collect the minimum data necessary to provide core functionality.</p>
+    <p class="meta">Developer / legal entity: Revaz Ugrekhelidze</p>
+    <p class="meta">Privacy contact: <a href="mailto:speedguardapp@gmail.com">speedguardapp@gmail.com</a></p>
 
-    <h3>A. Location Data (Foreground and Background)</h3>
-    <p>SpeedGuard is a real-time speedometer and speed limit alert application. To function, it requires access to your device's GPS location.</p>
-
-    <p><strong>Foreground Location</strong> — collected while the app is open to:</p>
+    <h2>Summary</h2>
+    <p>SpeedGuard is a driving aid that uses your device location to measure speed, look up posted speed limits, and alert you when you exceed your configured threshold. SpeedGuard does not sell personal data or sensitive personal data.</p>
+    <p>Depending on how you use the app, SpeedGuard may process:</p>
     <ul>
-      <li>Calculate your current speed</li>
-      <li>Determine the road you are driving on</li>
-      <li>Display the posted speed limit</li>
+      <li>Device location and driving-related readings while monitoring is active.</li>
+      <li>Location-derived road lookup requests sent to SpeedGuard services and mapping providers.</li>
+      <li>App diagnostics, crash reports, and analytics after onboarding is completed, if enabled for the build.</li>
+      <li>Advertising identifiers or ad-related data for free-tier users if ads are enabled.</li>
+      <li>Subscription and purchase entitlement information through Google Play and RevenueCat.</li>
+      <li>App settings, cached road-limit data, and monitoring-session state stored locally on your device.</li>
     </ul>
 
-    <p><strong>Background Location</strong> — collected when the app is closed or not in active use to:</p>
+    <h2>Information We Collect or Process</h2>
+
+    <h3>Location and Driving Data</h3>
+    <p>SpeedGuard accesses device location when you grant location permission and start monitoring. This may include:</p>
     <ul>
-      <li>Provide continuous speed monitoring</li>
-      <li>Deliver real-time audio alerts if you exceed the speed limit</li>
+      <li>Latitude and longitude.</li>
+      <li>GPS accuracy.</li>
+      <li>Heading.</li>
+      <li>Speed or speed-derived readings.</li>
+      <li>Timestamps associated with location updates.</li>
+      <li>Short recent GPS traces used to match your position to a road segment.</li>
+    </ul>
+
+    <p>We use this data to:</p>
+    <ul>
+      <li>Show your current speed.</li>
+      <li>Look up posted speed limits for your current road.</li>
+      <li>Determine whether you are within, near, or above the posted speed limit.</li>
+      <li>Trigger in-app, audio, and notification alerts.</li>
+      <li>Keep monitoring active through an Android foreground service after you intentionally start monitoring.</li>
     </ul>
 
     <div class="callout">
-      <p>Background location access is essential to SpeedGuard's core functionality. Without it, the app cannot provide safety alerts while driving with the screen off or while using other apps.</p>
+      <p>SpeedGuard may continue processing location while the app is minimized or the screen is off, but only after you start monitoring. Monitoring can be stopped from the app or the foreground-service notification.</p>
     </div>
 
-    <p><strong>How Location Data Is Processed:</strong></p>
+    <h3>Speed-Limit Lookup Requests</h3>
+    <p>To identify posted speed limits, SpeedGuard sends location-derived road lookup data to SpeedGuard backend services. These requests may include:</p>
     <ul>
-      <li>Location data is processed in real time</li>
-      <li>Short location traces are temporarily transmitted to routing providers (Valhalla and/or HERE Maps) to determine speed limits</li>
-      <li>This data is not stored on our servers and is not linked to your identity</li>
+      <li>A short GPS trace containing latitude, longitude, heading, and GPS accuracy.</li>
+      <li>A generated install token in the <code>x-device-token</code> header, when available, for coarse diagnostics and rate-limiting.</li>
+      <li>API authentication headers required by SpeedGuard services.</li>
     </ul>
 
-    <h3>B. Usage and Diagnostics Data</h3>
-    <p>We may collect non-personal diagnostic data such as crash reports, device model, operating system version, and performance metrics. This data is used solely to improve app stability and performance.</p>
+    <p>SpeedGuard's primary speed-limit lookup uses a SpeedGuard gateway and Valhalla map-matching backend. Premium users may also use HERE Maps as a fallback when speed-limit data is unavailable from the primary source.</p>
+    <p>These services process location-derived road data to return speed-limit information. SpeedGuard does not use location data for advertising targeting.</p>
 
-    <h3>C. Advertising Data (Free Tier Only)</h3>
-    <p>For users on the free tier, SpeedGuard uses Google AdMob to display advertisements. This service may collect advertising identifiers (e.g., Android Advertising ID) and ad interaction data to serve personalized or non-personalized ads.</p>
-    <p>You can opt out of personalized advertising at any time through your device settings (Settings → Google → Ads → "Opt out of Ads Personalization" on Android).</p>
-
-    <!-- 2 -->
-    <h2>2. Legal Basis for Processing</h2>
-    <p>If you are located in a region with data protection laws such as the GDPR (EEA, UK), we process your data based on:</p>
+    <h3>Local App Data</h3>
+    <p>SpeedGuard stores some data locally on your device using app storage, including:</p>
     <ul>
-      <li><strong>Consent</strong> — for location tracking and personalized ads</li>
-      <li><strong>Performance of a contract</strong> — to provide speed monitoring and alerts</li>
-      <li><strong>Legitimate interests</strong> — to improve app performance, reliability, and safety features</li>
+      <li>Your settings, such as speed unit, alert threshold, alert style, volume, and speed-limit announcement preference.</li>
+      <li>Onboarding completion state.</li>
+      <li>Cached speed-limit segment data for repeat routes.</li>
+      <li>Active monitoring-session state used to recover or continue monitoring safely.</li>
+      <li>A random install token used for gateway diagnostics and rate-limiting.</li>
+      <li>Your last-known subscription tier.</li>
+    </ul>
+    <p>This local data is used to provide app functionality and improve reliability. It is generally removed when you uninstall the app, subject to Android platform behavior and any device backup settings.</p>
+
+    <h3>Diagnostics, Analytics, and Crash Reports</h3>
+    <p>After onboarding is complete, SpeedGuard may initialize Firebase Analytics and Firebase Crashlytics if enabled for the build. These services may process:</p>
+    <ul>
+      <li>App events, such as monitoring start or stop, screen views, purchase flow events, and feature usage.</li>
+      <li>Crash reports, non-fatal error reports, logs, and diagnostic metadata.</li>
+      <li>App version, device model, operating system version, and similar technical information.</li>
+      <li>Subscription tier as an analytics property or crash-report attribute.</li>
+    </ul>
+    <p>We use this information to understand app quality, diagnose crashes, improve reliability, and measure feature usage. We do not intentionally include precise route history in analytics events.</p>
+
+    <h3>Advertising Data</h3>
+    <p>Free-tier users may see banner ads if advertising is enabled and production AdMob IDs are configured. Google AdMob and related Google advertising services may process device identifiers, advertising identifiers, approximate location, IP address, ad interaction data, and other data as described by Google's policies.</p>
+    <p>Ads are not shown to premium users. SpeedGuard does not use foreground or background location data for ad targeting.</p>
+
+    <h3>Subscription and Purchase Data</h3>
+    <p>SpeedGuard uses RevenueCat and Google Play Billing to manage subscriptions and lifetime purchases. Purchase processing is handled by Google Play and RevenueCat. SpeedGuard may receive or process:</p>
+    <ul>
+      <li>RevenueCat customer information and entitlement status.</li>
+      <li>Product identifiers for monthly, yearly, or lifetime access.</li>
+      <li>Purchase, restore, and paywall result events.</li>
+      <li>Subscription tier used to unlock premium features.</li>
+    </ul>
+    <p>SpeedGuard does not receive your full payment card number from Google Play or RevenueCat.</p>
+
+    <h3>Network and Device Information</h3>
+    <p>When the app communicates with SpeedGuard services or third-party SDKs, basic network and device information may be processed automatically, such as:</p>
+    <ul>
+      <li>IP address.</li>
+      <li>App version.</li>
+      <li>Device and operating system information.</li>
+      <li>Request timestamps.</li>
+      <li>Service logs required for security, diagnostics, and abuse prevention.</li>
     </ul>
 
-    <!-- 3 -->
-    <h2>3. Third-Party Services</h2>
-    <p>SpeedGuard relies on trusted third-party services. These providers may process limited data strictly for functionality purposes:</p>
+    <h2>How We Use Information</h2>
+    <p>We use information to:</p>
     <ul>
-      <li><strong>Google Play Services</strong> — core Android functionality and location services</li>
-      <li><strong>Google AdMob</strong> — advertising for free-tier users</li>
-      <li><strong>Google Play Billing</strong> — secure subscription and purchase processing</li>
-      <li><strong>HERE Maps / Valhalla</strong> — speed limit and road matching services</li>
-      <li><strong>Firebase (Crashlytics &amp; Analytics)</strong> — crash reporting and usage analytics</li>
+      <li>Provide real-time speed monitoring and speed-limit alerts.</li>
+      <li>Run background monitoring after you start it.</li>
+      <li>Fetch and cache posted speed limits.</li>
+      <li>Maintain app settings and subscription state.</li>
+      <li>Provide free-tier advertising and premium no-ad access.</li>
+      <li>Process purchases and restore entitlements.</li>
+      <li>Diagnose crashes, bugs, and service failures.</li>
+      <li>Protect the service from abuse, enforce rate limits, and maintain security.</li>
+      <li>Comply with legal obligations and Google Play requirements.</li>
     </ul>
-    <p>These providers are obligated to use your data only for the services they provide. We do not sell, rent, or trade your personal data to third parties.</p>
 
-    <!-- 4 -->
-    <h2>4. Data Retention and Security</h2>
-    <p><strong>Location Data:</strong> processed in real time, not stored on our servers, and not retained after use.</p>
-    <p><strong>Local Data:</strong> app preferences (units, alert settings, subscription status) are stored locally on your device.</p>
-    <p>No method of electronic transmission or storage is 100% secure. While we take reasonable measures to protect your information, we cannot guarantee absolute security.</p>
-
-    <!-- 5 -->
-    <h2>5. Your Privacy Rights</h2>
-    <p>Depending on your location, you may have the right to:</p>
+    <h2>How We Share Information</h2>
+    <p>We may share information with service providers that help operate SpeedGuard, including:</p>
     <ul>
-      <li>Access the data we process about you</li>
-      <li>Request deletion of your data</li>
-      <li>Withdraw consent at any time (e.g., by disabling location permissions)</li>
-      <li>Opt out of personalized advertising</li>
+      <li>SpeedGuard backend infrastructure for speed-limit lookup and diagnostics.</li>
+      <li>Valhalla-backed map-matching services operated for SpeedGuard.</li>
+      <li>HERE Maps for premium fallback speed-limit lookup.</li>
+      <li>Firebase / Google for analytics and crash reporting.</li>
+      <li>Google AdMob for ads shown to free-tier users.</li>
+      <li>Google Play Billing for app purchases and subscriptions.</li>
+      <li>RevenueCat for purchase, subscription, entitlement, paywall, and customer-center features.</li>
     </ul>
-    <p>Because SpeedGuard does not store personal location data on its servers, most data can be removed by uninstalling the app or clearing app storage on your device.</p>
+    <p>These providers process data according to their own terms and privacy policies and/or as service providers for app functionality. We may also disclose information if required by law, to protect rights and safety, or as part of a merger, acquisition, or business transfer.</p>
+    <p>We do not sell personal data or sensitive personal data.</p>
 
-    <!-- 6 -->
-    <h2>6. Children's Privacy</h2>
-    <p>SpeedGuard is not directed at anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If we become aware that a child has provided personal data, we will delete it immediately. If you are a parent or guardian and believe your child has provided us with information, please contact us.</p>
+    <h2>Permissions</h2>
+    <p>SpeedGuard may request:</p>
+    <ul>
+      <li>Location permission, including access needed for monitoring and speed-limit lookup.</li>
+      <li>Background or foreground-service location access where required for monitoring after you start it.</li>
+      <li>Notification permission on Android 13 and later so the app can show the required foreground monitoring notification.</li>
+      <li>Vibration permission for alerts.</li>
+    </ul>
+    <p>You can manage permissions in Android system settings. If required permissions are disabled, monitoring may not work.</p>
 
-    <!-- 7 -->
-    <h2>7. Changes to This Privacy Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated effective date. We encourage you to review this policy periodically.</p>
+    <h2>Data Retention</h2>
+    <p>Local settings, cached road-limit data, monitoring state, and the install token are retained on your device until you clear app data or uninstall the app.</p>
+    <p>SpeedGuard backend logs and diagnostics are retained only as long as reasonably needed for service operation, security, debugging, rate-limiting, and legal compliance.</p>
+    <p>Firebase, AdMob, Google Play, RevenueCat, and HERE may retain data according to their own policies and your account or device settings.</p>
 
-    <!-- 8 -->
-    <h2>8. Contact Us</h2>
-    <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
-    <p><a href="mailto:speedguardapp@gmail.com">speedguardapp@gmail.com</a></p>
+    <h2>Your Choices</h2>
+    <p>You can:</p>
+    <ul>
+      <li>Stop monitoring at any time from the app or the foreground-service notification.</li>
+      <li>Disable app permissions in Android settings.</li>
+      <li>Disable ads by purchasing a premium tier, if available.</li>
+      <li>Clear local app data or uninstall SpeedGuard to remove local settings and caches from your device.</li>
+      <li>Use Google Play controls and Google account settings for purchase, ad, and privacy choices where applicable.</li>
+      <li>Contact us to request privacy assistance.</li>
+    </ul>
+    <p>Privacy requests: <a href="mailto:speedguardapp@gmail.com">speedguardapp@gmail.com</a></p>
+    <p>Because SpeedGuard does not require an in-app account, some app data exists only on your device and cannot be accessed by us unless you send it to us or it is included in diagnostics handled by a provider.</p>
 
-    <!-- 9 -->
-    <h2>9. Jurisdiction</h2>
-    <p>This Privacy Policy is governed by the laws of Ontario, Canada.</p>
+    <h2>Children's Privacy</h2>
+    <p>SpeedGuard is intended for licensed drivers and is not directed to children. We do not knowingly collect personal information from children. If you believe a child has provided personal information through SpeedGuard, contact us so we can review and delete it where appropriate.</p>
+
+    <h2>Security</h2>
+    <p>SpeedGuard uses HTTPS for network requests where supported and uses Android platform permissions to control access to sensitive device data. No method of transmission or storage is completely secure, but we use reasonable technical and organizational measures to protect information.</p>
+
+    <h2>International Processing</h2>
+    <p>SpeedGuard and its service providers may process information in the United States and other countries where we or our providers operate. Data protection laws in these locations may differ from those in your country or region.</p>
+
+    <h2>Third-Party Policies</h2>
+    <p>You can review the policies of key providers here:</p>
+    <ul>
+      <li>Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+      <li>Google Play User Data Policy: <a href="https://support.google.com/googleplay/android-developer/answer/10144311">https://support.google.com/googleplay/android-developer/answer/10144311</a></li>
+      <li>Google Play background location guidance: <a href="https://support.google.com/googleplay/android-developer/answer/9799150">https://support.google.com/googleplay/android-developer/answer/9799150</a></li>
+      <li>Firebase privacy and security information: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></li>
+      <li>RevenueCat Privacy Policy: <a href="https://www.revenuecat.com/privacy/">https://www.revenuecat.com/privacy/</a></li>
+      <li>HERE Privacy Policy: <a href="https://legal.here.com/en-gb/privacy">https://legal.here.com/en-gb/privacy</a></li>
+    </ul>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. When we make changes, we will update the effective date above. If changes are material, we may provide additional notice in the app or through the store listing where appropriate.</p>
+
+    <h2>Contact Us</h2>
+    <p>Developer / legal entity: Revaz Ugrekhelidze</p>
+    <p>Privacy contact: <a href="mailto:speedguardapp@gmail.com">speedguardapp@gmail.com</a></p>
 
     <div class="footer">
       <p>SpeedGuard &copy; 2026 Revaz Ugrekhelidze. All rights reserved.</p>
     </div>
-
   </div>
 </body>
 </html>
